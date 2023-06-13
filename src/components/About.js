@@ -67,10 +67,23 @@ function About(){
 
             <br />
 
+            <div className="product-container">
+                <h3>Our Products</h3>
+                <ul>
+                    <li>Decorative Paints</li>
+                    <li>Coir Coatings</li>
+                    <li>Artist Paintings</li>
+                    <li>Product Pigment fine pastes</li>
+                </ul>
+            </div>
+
+            <br />
+
             <p>
                 Explore our range of products and experience the Athul Colours difference. Transform your spaces, unleash 
                 your creativity, and join us in creating a more colorful world.
             </p>
+
 
             <div className="address-container">
                 <h3>Our Address</h3>
