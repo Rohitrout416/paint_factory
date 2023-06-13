@@ -1,4 +1,7 @@
 import React from "react";
+import paints from "../assets/paints.jpeg"
+import pigments from "../assets/pigments.jpeg"
+import water_colours from "../assets/water_colours.jpeg"
 
 function About(){
     return(
@@ -9,7 +12,7 @@ function About(){
 
             <br />
 
-            <img src="https://fluidan.com/wp-content/uploads/2020/11/Banner-image-RheoStream®-FCRheoStream®-FC-for-Quality-Control-in-Paint-Production-for-Quality-Control-in-Paint-Production.jpg" alt="paint factory" />
+            <img src={paints} alt="paint factory" className="middle"/>
 
             <p> 
                 We take immense pride in our wide range of high-quality products, including coir coatings, 
@@ -27,6 +30,8 @@ function About(){
             
             <br />
 
+            <img src={water_colours} alt="water colours" className="middle"/>
+
             <p>
                 For the artistic souls out there, our water-based artist paints offer a vibrant palette of colors, 
                 allowing you to unleash your creativity on canvas. Whether you are a professional artist or an 
@@ -34,6 +39,8 @@ function About(){
             </p>
 
             <br />
+
+            <img src={pigments} alt="yellow pigments" className="middle"/>
 
             <p>
                 As a trusted paint factory, we understand the importance of color and its impact on the environment. 

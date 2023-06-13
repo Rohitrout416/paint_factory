@@ -3,11 +3,13 @@ import React from "react";
 function Heading(){
     return(
         <div className="heading">
-            <div>
-                <img src="/Logo.png" alt="logo" width={100}/>
-            </div>
-            <div>
-                Athul colours
+                <div className="parent">
+                <div className="child">
+                    <img src="/Logo.png" alt="logo" width={200}/>
+                </div>
+                <div className="child">
+                    Athul colours
+                </div>
             </div>
         </div>
     )

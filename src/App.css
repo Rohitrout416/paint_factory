@@ -15,7 +15,7 @@
 }
 
 .heading {
-  font-size: 12px;
+  font-size: 32px;
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
   margin-right: auto;
@@ -47,3 +47,21 @@
   font-size: 18px;
 }
 
+.parent {
+  margin: 1rem;
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+.middle{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-bottom: 20px;
+}
