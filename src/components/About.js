@@ -71,6 +71,14 @@ function About(){
                 Explore our range of products and experience the Athul Colours difference. Transform your spaces, unleash 
                 your creativity, and join us in creating a more colorful world.
             </p>
+
+            <div className="address-container">
+                <h3>Our Address</h3>
+                <p>Varanam P.O., Cheruvaranam</p>
+                <p>Cherthala, Alapphuzha, Kerala-688555</p>
+                <p>India</p>
+            </div>
+
         </div>
     )
 }

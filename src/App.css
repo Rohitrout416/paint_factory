@@ -71,3 +71,21 @@
   justify-content: center;
   align-items: center;
 }
+
+.address-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.address-container h3 {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.address-container p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
