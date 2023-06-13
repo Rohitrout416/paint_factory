@@ -15,8 +15,8 @@
 }
 
 .heading {
-  font-size: 32px;
-  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  font-family: 'Playfair Display', serif;
   font-weight: bold;
   margin-right: auto;
   margin-left: 30px;
@@ -89,3 +89,57 @@
   font-size: 16px;
   margin-bottom: 10px;
 }
+
+.product-container {
+  background-color: #e6f7ff;
+  padding: 20px;
+}
+
+.product-container h3 {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product-container ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.product-container li {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.contact {
+  background-color: #F2F9FF; /* Light blue background color */
+  padding: 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  color: #245C9E; /* Dark blue text color */
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  color: #245C9E; /* Dark blue text color */
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.contact ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.contact li {
+  color: #245C9E; /* Dark blue text color */
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
