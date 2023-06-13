@@ -65,3 +65,9 @@
   width: 70%;
   padding-bottom: 20px;
 }
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
